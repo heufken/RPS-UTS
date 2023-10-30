@@ -25,7 +25,7 @@
   }
 
   .table th:nth-child(4) {
-    width: 500px; /* Atur lebar kolom Deskripsi sesuai kebutuhan Anda */
+    width: 500px; 
   }
 </style>
 
@@ -60,7 +60,7 @@
           <th>Deskripsi</th>
           <!-- <th>Jenis Kelamin</th>
           <th>Skill</th> --> 
-          <th>Mau Diapain</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>

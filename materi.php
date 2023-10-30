@@ -55,7 +55,7 @@
           <th class="satu">Pertemuan</th>
           <th>Judul Materi</th>
           <th>Deskripsi Materi</th>
-          <th>Mau Diapain</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
@@ -80,7 +80,8 @@
             echo "<td>";
 
             // Tampilkan Action Edit dan Hapus hanya jika ada materi
-            echo "<a href='controller-hapusmateri.php?judul_materi=" . $materi['judul_materi'] . "'>Hapus</a>";
+            echo "<a href='editmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "'> Edit </a> |";
+            echo "<a href='controller-hapusmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "'> Hapus </a>";
 
             echo "</td>";
             echo "</tr>";

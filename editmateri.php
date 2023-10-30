@@ -80,7 +80,7 @@ if (mysqli_num_rows($sql) < 1) {
 
   <div class="container form-control mt-3">
     <br>
-    <form action="controller-edit.php" method="POST">
+    <form action="controller-editmateri.php" method="POST">
       <fieldset>
 
         <div class="mb-3 w-25">
