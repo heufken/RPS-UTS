@@ -1,0 +1,41 @@
+body{
+	background-color: #6c25be;
+	font-family: Helvetica, sans-serif;
+}
+
+.bg-login{
+	background-color: white;
+	min-height: 700px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.img-login{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+  	padding-top: 50px;
+}
+
+.textlogin{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.link-right {
+    text-align: right;
+    float: right;
+    color: red;
+    padding-bottom: 20px;
+}
+
+.navbar-text {
+	font-family: Helvetica, sans-serif;
+}
