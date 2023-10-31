@@ -149,7 +149,7 @@
 
   <div class="box">
     <div class="box-content profile">
-      <img src="pic/22_01_4842.jpg" alt="Gambar">
+      <img src="pic/logo.png" alt="Gambar">
     </div>
     <div class="box-content greeting">
       <h4>Halo, Fahmi.</h4>

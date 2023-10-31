@@ -30,7 +30,7 @@
     /* Hindari pemutaran teks */
     text-align: center;
     align-items: center;
-    
+
   }
 </style>
 
@@ -46,9 +46,31 @@
       <a href="view.php">
         <button type="submit" class="btn btn-warning ms-auto">Kembali</button>
       </a>
+      
     </div>
   </nav>
+  <?php
+  include("config.php");
+  if (isset($_GET['kode_matkul'])) {
+    $kode_matkul = $_GET['kode_matkul'];
+    
+  }
+  $sql_matkul = "SELECT nama_matkul, desk_matkul FROM matkul WHERE kode_matkul = '$kode_matkul'";
+  $query_matkul = mysqli_query($sambung, $sql_matkul);
+
+  if ($query_matkul && $matkul = mysqli_fetch_assoc($query_matkul)) {
+    $nama_matkul = $matkul['nama_matkul'];
+    $deskripsi_matkul = $matkul['desk_matkul'];
+  }
+  ?>
+
   <div class="container form-control mt-3">
+    <h2>
+      <?php echo $nama_matkul; ?>
+    </h2>
+    <p>
+      <?php echo $deskripsi_matkul; ?>
+    </p>
     <table class="table table-hover">
       <thead>
         <tr class="tr">
@@ -74,7 +96,7 @@
           // Mulai menampilkan materi yang ditemukan
           while ($materi = mysqli_fetch_array($query)) {
             echo "<tr>";
-            echo "<td>".$nomor."</td>";
+            echo "<td>" . $nomor . "</td>";
             echo "<td>" . $materi['judul_materi'] . "</td>"; // Kolom Judul Materi
             echo "<td>" . $materi['desk_materi'] . "</td>"; // Kolom Deskripsi Materi
             echo "<td>";
