@@ -41,7 +41,7 @@
         <img src="pic/logo-amikom.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
       </a>
       <span class="navbar-text">
-        View Dosen
+        View Materi
       </span>
       <a href="view.php">
         <button type="submit" class="btn btn-warning ms-auto">Kembali</button>
@@ -102,8 +102,8 @@
             echo "<td>";
 
             // Tampilkan Action Edit dan Hapus hanya jika ada materi
-            echo "<a href='editmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "'> Edit </a> |";
-            echo "<a href='controller-hapusmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "'> Hapus </a>";
+            echo "<a href='editmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "' class='btn btn-secondary'> Edit </a> | ";
+            echo "<a href='controller-hapusmateri.php?kode_matkul=" . $kode_matkul . "&judul_materi=" . $materi['judul_materi'] . "' class='btn btn-danger'> Hapus </a>";
 
             echo "</td>";
             echo "</tr>";

@@ -57,7 +57,7 @@
       </a>
 
       <span class="navbar-text mx-auto">
-        Tambah Dosen
+        Tambah RPS
       </span>
 
     </div>

@@ -40,7 +40,7 @@
       </a>
 
       <span class="navbar-text">
-        View Dosen
+        View RPS
       </span>
 
       <a href="dashboard.php">
@@ -81,9 +81,9 @@
           // echo "<td>" . $dosen['skl_dos'] . "</td>";
           echo "<td>";
 
-          echo "<a href='materi.php?kode_matkul=" . $matkul['kode_matkul'] . "'>Lihat Materi</a> | ";
-          echo "<a href='editdata.php?kode_matkul=" . $matkul['kode_matkul'] . "'>Edit</a> | ";
-          echo "<a href='controller-hapus.php?kode_matkul=" . $matkul['kode_matkul'] . "'>Hapus</a>";
+          echo "<a href='materi.php?kode_matkul=" . $matkul['kode_matkul'] . "' class='btn btn-warning ml-5'>Materi</a> | ";
+          echo "<a href='editdata.php?kode_matkul=" . $matkul['kode_matkul'] . "' class='btn btn-secondary'>Edit</a> | ";
+          echo "<a href='controller-hapus.php?kode_matkul=" . $matkul['kode_matkul'] . "' class='btn btn-danger'>Hapus</a>";
           echo "</td>";
           echo "</tr>";
           $nomor++;
