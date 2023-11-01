@@ -20,7 +20,7 @@
   }
 
   .table th {
-    white-space: nowrap; /* Hindari pemutaran teks */
+    white-space: nowrap;
     text-align: center;
   }
 
@@ -35,7 +35,7 @@
   <nav class="navbar sticky-top" style="background-color: #7930A5;">
 
     <div class="container-fluid d-flex justify-content-between">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="dashboard.php">
         <img src="pic/logo-amikom.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
       </a>
 
@@ -58,8 +58,6 @@
           <th>Kode Mata Kuliah</th>
           <th>Nama Mata Kuliah</th>
           <th>Deskripsi</th>
-          <!-- <th>Jenis Kelamin</th>
-          <th>Skill</th> --> 
           <th>Action</th>
         </tr>
       </thead>
@@ -77,8 +75,6 @@
           echo "<td>" . $matkul['kode_matkul'] . "</td>";
           echo "<td>" . $matkul['nama_matkul'] . "</td>";
           echo "<td>" . $matkul['desk_matkul'] . "</td>";
-          // echo "<td>" . $dosen['jkl_dos'] . "</td>";
-          // echo "<td>" . $dosen['skl_dos'] . "</td>";
           echo "<td>";
 
           echo "<a href='materi.php?kode_matkul=" . $matkul['kode_matkul'] . "' class='btn btn-warning ml-5'>Materi</a> | ";

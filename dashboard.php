@@ -160,7 +160,7 @@
         <button class="box-button1">Tambah RPS</button>
       </a>
       <a href="view.php">
-        <button class="box-button2">Daftar RPS</button>
+        <button class="box-button2">List RPS</button>
       </a>
     </div>
   </div>
@@ -195,42 +195,6 @@
           </div>';
           }
           ?>
-
-          <!-- <div class="card text-bg-secondary mb-4 mt-4">
-              <div class="card-header">Kode Mata Kuliah #1</div>
-              <div class="card-body">
-                <h5 class="card-title" style="color: #FFFFFF;">Nama Mata Kuliah #1</h5>
-                <a href="view/index.html" class="btn btn-warning ml-5">Detail</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-bg-secondary mb-4 mt-4">
-              <div class="card-header">Kode Mata Kuliah #1</div>
-              <div class="card-body">
-                <h5 class="card-title" style="color: #FFFFFF;">Nama Mata Kuliah #1</h5>
-                <a href="view/index.html" class="btn btn-warning ml-5">Detail</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-bg-secondary mb-4 mt-4">
-              <div class="card-header">Kode Mata Kuliah #1</div>
-              <div class="card-body">
-                <h5 class="card-title" style="color: #FFFFFF;">Nama Mata Kuliah #1</h5>
-                <a href="view/index.html" class="btn btn-warning ml-5">Detail</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-bg-secondary mb-4 mt-4">
-              <div class="card-header">Kode Mata Kuliah #1</div>
-              <div class="card-body">
-                <h5 class="card-title" style="color: #FFFFFF;">Nama Mata Kuliah #1</h5>
-                <button type="button" class="btn btn-warning ml-5">Detail</a>
-              </div>
-            </div>
-          </div> -->
 
           <script src="bootstrap/js/bootstrap.js"></script>
           <script src="bootstrap/js/bootstrap.min.js"></script>

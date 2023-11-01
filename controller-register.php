@@ -10,9 +10,9 @@ $sql = "INSERT INTO userlogin (nama, user, password) VALUES ('$nama', '$user', '
     $query = mysqli_query($sambung, $sql);
 
     if( $query ) {
-        echo "berhasil";
+        header('Location: index.php?status=sukses');
         exit;
     } else {
-        echo "gagal";
+        echo "header('Location: index.php?status=gagal');";
         exit;
     }

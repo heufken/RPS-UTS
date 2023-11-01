@@ -52,7 +52,7 @@
   <nav class="navbar sticky-top" style="background-color: #7930A5;">
 
     <div class="container-fluid d-flex justify-content-between">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="dashboard.php">
         <img src="pic/logo-amikom.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
       </a>
 

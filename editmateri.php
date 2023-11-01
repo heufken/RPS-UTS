@@ -71,7 +71,7 @@ if (isset($_GET['kode_matkul']) && isset($_GET['judul_materi'])) {
       <a class="navbar-brand" href="#">
         <img src="pic/logo-amikom.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
       </a>
-      <span class="navbar-text">Edit Materi</span>
+      <span class="navbar-text">Edit Data Materi</span>
       <a href="dashboard.php">
         <button type="submit" class="btn btn-warning ms-auto">Kembali ke Dashboard</button>
       </a>

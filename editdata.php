@@ -68,7 +68,7 @@ if (mysqli_num_rows($sql) < 1) {
       </a>
 
       <span class="navbar-text">
-        Edit Data Dosen
+        Edit Data Mata Kuliah
       </span>
 
       <a href="dashboard.php">
